@@ -1,0 +1,25 @@
+{
+  "name": "bct-bonus-exercise",
+  "version": "1.0.0",
+  "description": "Welcome to the Remix Circom ZKP Semaphore Workspace.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NhoxxKienn/bct-bonus-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NhoxxKienn/bct-bonus-exercise/issues"
+  },
+  "homepage": "https://github.com/NhoxxKienn/bct-bonus-exercise#readme",
+  "dependencies": {
+    "circomlib": "^2.0.5",
+    "circomlibjs": "^0.1.7"
+  }
+}

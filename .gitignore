@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+
+# Hardhat/Truffle cache and artifacts
+artifacts/
+cache/
+typechain/
+
+# Circom build artifacts
+circuits/build/
+circuits/outputs/
+circuits/witness.wtns
+circuits/*.json
+
+# Environment files (private keys, API keys, secrets)
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage reports (if using solidity-cove
