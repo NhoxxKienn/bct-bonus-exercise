@@ -1,7 +1,7 @@
 pragma circom 2.1.8;
 
-include "../node_modules/circomlib/circuits/comparators.circom";
-include "../node_modules/circomlib/circuits/poseidon.circom";
+include "../../node_modules/circomlib/circuits/comparators.circom";
+include "../../node_modules/circomlib/circuits/poseidon.circom";
 
 // IDHasher: computes a hash of the zkID using a constant tag.
 template IDHasher() {
