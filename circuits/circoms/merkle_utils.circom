@@ -7,7 +7,6 @@ template MerkleTreeHelper(DEPTH) {
     signal input leaf;
     signal input proofIndices[DEPTH]; // Indices of the proof elements in the Merkle tree proof path.
     signal input proofElements[DEPTH];
-
     signal output root;
 
     signal currentHash[DEPTH + 1];
